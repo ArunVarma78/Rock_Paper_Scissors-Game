@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock_Paper_Scissor</title>
+    <link rel="stylesheet" href="rockpaper.css">
+</head>
+<body>
+    <button class="button" onclick="
+        randCom('Rock');
+    ">Rock</button>
+
+    <button class="button" onclick="
+        randCom('Paper');
+    ">Paper</button>
+
+    <button class="button" onclick="
+        randCom('Scissor');
+    ">Scissor</button>
+
+    <p class="js-score"></p>
+    <p class="js-moves"></p>
+    <p class="js-result"></p>
+
+    <button class="button" onclick="
+        reset();
+    ">Reset Score</button>
+
+    <script src="rockpaper.js"></script>
+</body>
+</html>
